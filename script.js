@@ -1,3 +1,3 @@
-function hi() {
-  alert('hi!');
+function selectStyle(styleName) {
+  alert(styleName);
 }
