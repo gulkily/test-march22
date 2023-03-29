@@ -28,6 +28,11 @@ something.html
 
 files not yet done:
 
+1. head
+2. title
+3. script
+4. radio buttons
+
 Danil
 =====
 tea.html
