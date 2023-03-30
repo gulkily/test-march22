@@ -1,6 +1,32 @@
 <html>
+  <head>
+    <title>coffee</title>
+    <script src="script.js"></script>
+  </head>
   <body>
     <h1>coffee</h1>
     <p>this is my coffee, thank you!</p>
+    <div>
+      <form>
+        <p>
+          <label for="style_dmitro">
+            <input type="radio" name="style" id="style_dmitro" value="dmitro.css" onclick="selectStyle(this.value)">
+            dmitro.css
+          </label>
+        </p>
+        <p>
+          <label for="style_ilya">
+            <input type="radio" name="style" id="style_ilya" value="ilya.css" onclick="selectStyle(this.value)">
+            ilya.css
+          </label>
+        </p>
+        <p>
+          <label for="style_something">
+            <input type="radio" name="style" id="style_something" value="something.css" onclick="selectStyle(this.value)">
+            something.css
+          </label>
+        </p>
+      </form>
+    </div>
   </body>
 </html>

@@ -1,6 +1,7 @@
 <html>
   <head>
     <title>index</title>
+    <script src="script.js"></script>
   </head>
   <body>
     <h1> index file. </h1>
@@ -10,7 +11,33 @@
       <li><a href="coffee.html">coffee</a></li>
       <li><a href="something.html">something</a></li>
       <li><a href="white.html">white</a></li>
+      <li><a href="chair.html">chair</a></li>
+      <li><a href="kepka.html">kepka</a></li>
+      <li><a href="my.html">my</a></li>
       <li><a href="tea.html">tea</a></li>
+      <li><a href="test.html">test</a></li>
     </ul>
+    <div>
+      <form>
+        <p>
+          <label for="style_ilya">
+            <input type="radio" name="style" id="style_ilya" value="ilya.css" onclick="selectStyle(this.value)">
+            ilya.css
+          </label>
+        </p>
+        <p>
+          <label for="style_dmitro">
+            <input type="radio" name="style" id="style_dmitro" value="dmitro.css" onclick="selectStyle(this.value)">
+            dmitro.css
+          </label>
+        </p>
+        <p>
+          <label for="style_something">
+            <input type="radio" name="style" id="style_something" value="something.css" onclick="selectStyle(this.value)">
+            something.css
+          </label>
+        </p>
+      </form>
+    </div>
   </body>
 </html>
