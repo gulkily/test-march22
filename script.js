@@ -1,5 +1,11 @@
 function selectStyle(styleName) {
-  alert(styleName);
+  //alert(styleName);
+
+  /* <link rel="stylesheet" href="ilya.css"> */
+
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = 'ilya.css';
 }
 
 /*
