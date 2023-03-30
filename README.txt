@@ -33,18 +33,16 @@ files not yet done:
 3. script
 4. radio buttons
 
-Danil
+Files
 =====
 tea.html
 white.html
-
-Dmytro
-======
 test.html
 my.html
-
-Ilya
-====
 kepka.html
 chair.html
 white.html
+coffee.html
+index.html x
+no.html
+something.html
