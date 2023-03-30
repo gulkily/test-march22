@@ -2,13 +2,12 @@ function selectStyle(styleName) {
   //alert(styleName);
 
   /* <link rel="stylesheet" href="ilya.css"> */
-
   var link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = 'ilya.css';
+  link.href = styleName;
 
-  var allHeads = document.getElementsByTagName('head');
-  var head = allHeads[0];
+  var allHeads = document.getElementsByTagName('head'); /* [0: '<head>'] */
+  var head = allHeads[0]; /* <head> */ 
 
   head.appendChild(link);
 }
