@@ -6,6 +6,11 @@ function selectStyle(styleName) {
   var link = document.createElement('link');
   link.rel = 'stylesheet';
   link.href = 'ilya.css';
+
+  var allHeads = document.getElementsByTagName('head');
+  var head = allHeads[0];
+
+  head.appendChild(link);
 }
 
 /*
