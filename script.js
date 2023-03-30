@@ -1,4 +1,9 @@
 function selectStyle(styleName) {
+  alert(styleName);
+}
+
+/*
+function selectStyle(styleName) {
   // check for existing <link> on page, change its src attribute
   // if existing not found, create <link> element on page, set its src attribute
 
@@ -24,3 +29,4 @@ function selectStyle(styleName) {
     link.href = styleName;
   }
 }
+*/
