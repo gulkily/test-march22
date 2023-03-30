@@ -2,7 +2,8 @@ function selectStyle(styleName) {
   //alert(styleName);
 
   if (document.getElementById('myCss')) {
-    // need to do something else
+    var link = document.getElementById('myCss');
+    link.href = styleName;
   } else {
     /* <link rel="stylesheet" href="ilya.css"> */
     var link = document.createElement('link');
