@@ -35,12 +35,12 @@ files not yet done:
 
 Files
 =====
-tea.html
+tea.html x
 white.html
 test.html
 my.html
 kepka.html
-chair.html
+chair.html x
 white.html
 coffee.html
 index.html x
