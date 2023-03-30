@@ -1,16 +1,20 @@
 function selectStyle(styleName) {
   //alert(styleName);
 
-  /* <link rel="stylesheet" href="ilya.css"> */
-  var link = document.createElement('link');
-  link.rel = 'stylesheet';
-  link.id = 'myCss';
-  link.href = styleName;
+  if (document.getElementById('myCss')) {
+    // need to do something else
+  } else {
+    /* <link rel="stylesheet" href="ilya.css"> */
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.id = 'myCss';
+    link.href = styleName;
 
-  var allHeads = document.getElementsByTagName('head'); /* [0: '<head>'] */
-  var head = allHeads[0]; /* <head> */ 
+    var allHeads = document.getElementsByTagName('head'); /* [0: '<head>'] */
+    var head = allHeads[0]; /* <head> */ 
 
-  head.appendChild(link);
+    head.appendChild(link);
+  }
 }
 
 /*
