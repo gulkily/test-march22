@@ -1,4 +1,6 @@
 body {
   color: blue;
   background-color: lightgray;
+  font-size: 21pt;
+  font-family: "Courier New", monospace;
 }
