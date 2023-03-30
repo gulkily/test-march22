@@ -4,6 +4,7 @@ function selectStyle(styleName) {
   /* <link rel="stylesheet" href="ilya.css"> */
   var link = document.createElement('link');
   link.rel = 'stylesheet';
+  link.id = 'myCss';
   link.href = styleName;
 
   var allHeads = document.getElementsByTagName('head'); /* [0: '<head>'] */
